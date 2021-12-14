@@ -38,3 +38,13 @@ Tue, 14 Dec 2021 14:43:03 +0800
 Tue, 14 Dec 2021 14:43:05 +0800
 1.13user 0.30system 0:02.01elapsed 71%CPU (0avgtext+0avgdata 107756maxresident)k
 23056inputs+16872outputs (0major+39053minor)pagefaults 0swaps
+
+[verilator] Generating C++ files...
+Tue, 14 Dec 2021 15:44:29 +0800
+1.99user 0.08system 0:02.17elapsed 95%CPU (0avgtext+0avgdata 167640maxresident)k
+4008inputs+18472outputs (0major+42267minor)pagefaults 0swaps
+
+[g++] Compiling C++ files...
+Tue, 14 Dec 2021 15:44:32 +0800
+3.59user 0.89system 0:05.95elapsed 75%CPU (0avgtext+0avgdata 110148maxresident)k
+53968inputs+96520outputs (4major+144942minor)pagefaults 0swaps

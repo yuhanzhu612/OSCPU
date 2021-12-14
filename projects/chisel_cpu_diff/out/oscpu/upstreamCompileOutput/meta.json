@@ -1,10 +1,10 @@
 {
     "value": [
         {
-            "analysisFile": "/home/yhz/oscpu/projects/chisel_cpu_diff/out/difftest/compile/dest/zinc",
-            "classes": "ref:30fb6afc:/home/yhz/oscpu/projects/chisel_cpu_diff/out/difftest/compile/dest/classes"
+            "analysisFile": "/home/yhz/TRIGGER/OSCPU/projects/chisel_cpu_diff/out/difftest/compile/dest/zinc",
+            "classes": "ref:332cfdc5:/home/yhz/TRIGGER/OSCPU/projects/chisel_cpu_diff/out/difftest/compile/dest/classes"
         }
     ],
-    "valueHash": 1578150287,
-    "inputsHash": -257862165
+    "valueHash": 2038601315,
+    "inputsHash": 612030047
 }

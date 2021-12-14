@@ -4,7 +4,7 @@
 # Execute this makefile from the object directory:
 #    make -f VSimTop.mk
 
-default: /home/yhz/oscpu/projects/chisel_cpu_diff/build/emu
+default: /home/yhz/TRIGGER/OSCPU/projects/chisel_cpu_diff/build/emu
 
 ### Constants...
 # Perl executable (from $PERL)
@@ -35,11 +35,11 @@ VM_PREFIX = VSimTop
 VM_MODPREFIX = VSimTop
 # User CFLAGS (from -CFLAGS on Verilator command line)
 VM_USER_CFLAGS = \
-	-std=c++11 -static -Wall -I/home/yhz/oscpu/libraries/difftest/src/test/csrc -I/home/yhz/oscpu/libraries/difftest/src/test/csrc/common -I/home/yhz/oscpu/libraries/difftest/src/test/csrc/difftest -DVERILATOR -DNUM_CORES=1 -I/usr/include/SDL2 -D_REENTRANT -fPIE -I/home/yhz/oscpu/libraries/DRAMsim3/src -DWITH_DRAMSIM3 -DDRAMSIM3_CONFIG=\"/home/yhz/oscpu/libraries/DRAMsim3/configs/XiangShan.ini\" -DDRAMSIM3_OUTDIR=\"/home/yhz/oscpu/projects/chisel_cpu_diff/build\" \
+	-std=c++11 -static -Wall -I/home/yhz/TRIGGER/OSCPU/libraries/difftest/src/test/csrc -I/home/yhz/TRIGGER/OSCPU/libraries/difftest/src/test/csrc/common -I/home/yhz/TRIGGER/OSCPU/libraries/difftest/src/test/csrc/difftest -DVERILATOR -DNUM_CORES=1 -I/usr/include/SDL2 -D_REENTRANT -fPIE -I/home/yhz/TRIGGER/OSCPU/libraries/DRAMsim3/src -DWITH_DRAMSIM3 -DDRAMSIM3_CONFIG=\"/home/yhz/TRIGGER/OSCPU/libraries/DRAMsim3/configs/XiangShan.ini\" -DDRAMSIM3_OUTDIR=\"/home/yhz/TRIGGER/OSCPU/projects/chisel_cpu_diff/build\" \
 
 # User LDLIBS (from -LDFLAGS on Verilator command line)
 VM_USER_LDLIBS = \
-	-lpthread -lSDL2 -ldl -lz -lsqlite3 /home/yhz/oscpu/libraries/DRAMsim3/build/libdramsim3.a \
+	-lpthread -lSDL2 -ldl -lz -lsqlite3 /home/yhz/TRIGGER/OSCPU/libraries/DRAMsim3/build/libdramsim3.a \
 
 # User .cpp files (from .cpp's on Verilator command line)
 VM_USER_CLASSES = \
@@ -69,10 +69,10 @@ VM_USER_CLASSES = \
 
 # User .cpp directories (from .cpp's on Verilator command line)
 VM_USER_DIR = \
-	/home/yhz/oscpu/libraries/difftest/src/test/csrc/common \
-	/home/yhz/oscpu/libraries/difftest/src/test/csrc/difftest \
-	/home/yhz/oscpu/libraries/difftest/src/test/csrc/vcs \
-	/home/yhz/oscpu/libraries/difftest/src/test/csrc/verilator \
+	/home/yhz/TRIGGER/OSCPU/libraries/difftest/src/test/csrc/common \
+	/home/yhz/TRIGGER/OSCPU/libraries/difftest/src/test/csrc/difftest \
+	/home/yhz/TRIGGER/OSCPU/libraries/difftest/src/test/csrc/vcs \
+	/home/yhz/TRIGGER/OSCPU/libraries/difftest/src/test/csrc/verilator \
 
 
 ### Default rules...
@@ -84,55 +84,55 @@ include $(VERILATOR_ROOT)/include/verilated.mk
 ### Executable rules... (from --exe)
 VPATH += $(VM_USER_DIR)
 
-SimJTAG.o: /home/yhz/oscpu/libraries/difftest/src/test/csrc/common/SimJTAG.cpp
+SimJTAG.o: /home/yhz/TRIGGER/OSCPU/libraries/difftest/src/test/csrc/common/SimJTAG.cpp
 	$(OBJCACHE) $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(OPT_FAST) -c -o $@ $<
-axi4.o: /home/yhz/oscpu/libraries/difftest/src/test/csrc/common/axi4.cpp
+axi4.o: /home/yhz/TRIGGER/OSCPU/libraries/difftest/src/test/csrc/common/axi4.cpp
 	$(OBJCACHE) $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(OPT_FAST) -c -o $@ $<
-common.o: /home/yhz/oscpu/libraries/difftest/src/test/csrc/common/common.cpp
+common.o: /home/yhz/TRIGGER/OSCPU/libraries/difftest/src/test/csrc/common/common.cpp
 	$(OBJCACHE) $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(OPT_FAST) -c -o $@ $<
-compress.o: /home/yhz/oscpu/libraries/difftest/src/test/csrc/common/compress.cpp
+compress.o: /home/yhz/TRIGGER/OSCPU/libraries/difftest/src/test/csrc/common/compress.cpp
 	$(OBJCACHE) $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(OPT_FAST) -c -o $@ $<
-device.o: /home/yhz/oscpu/libraries/difftest/src/test/csrc/common/device.cpp
+device.o: /home/yhz/TRIGGER/OSCPU/libraries/difftest/src/test/csrc/common/device.cpp
 	$(OBJCACHE) $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(OPT_FAST) -c -o $@ $<
-flash.o: /home/yhz/oscpu/libraries/difftest/src/test/csrc/common/flash.cpp
+flash.o: /home/yhz/TRIGGER/OSCPU/libraries/difftest/src/test/csrc/common/flash.cpp
 	$(OBJCACHE) $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(OPT_FAST) -c -o $@ $<
-keyboard.o: /home/yhz/oscpu/libraries/difftest/src/test/csrc/common/keyboard.cpp
+keyboard.o: /home/yhz/TRIGGER/OSCPU/libraries/difftest/src/test/csrc/common/keyboard.cpp
 	$(OBJCACHE) $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(OPT_FAST) -c -o $@ $<
-ram.o: /home/yhz/oscpu/libraries/difftest/src/test/csrc/common/ram.cpp
+ram.o: /home/yhz/TRIGGER/OSCPU/libraries/difftest/src/test/csrc/common/ram.cpp
 	$(OBJCACHE) $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(OPT_FAST) -c -o $@ $<
-remote_bitbang.o: /home/yhz/oscpu/libraries/difftest/src/test/csrc/common/remote_bitbang.cpp
+remote_bitbang.o: /home/yhz/TRIGGER/OSCPU/libraries/difftest/src/test/csrc/common/remote_bitbang.cpp
 	$(OBJCACHE) $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(OPT_FAST) -c -o $@ $<
-sdcard.o: /home/yhz/oscpu/libraries/difftest/src/test/csrc/common/sdcard.cpp
+sdcard.o: /home/yhz/TRIGGER/OSCPU/libraries/difftest/src/test/csrc/common/sdcard.cpp
 	$(OBJCACHE) $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(OPT_FAST) -c -o $@ $<
-uart.o: /home/yhz/oscpu/libraries/difftest/src/test/csrc/common/uart.cpp
+uart.o: /home/yhz/TRIGGER/OSCPU/libraries/difftest/src/test/csrc/common/uart.cpp
 	$(OBJCACHE) $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(OPT_FAST) -c -o $@ $<
-vga.o: /home/yhz/oscpu/libraries/difftest/src/test/csrc/common/vga.cpp
+vga.o: /home/yhz/TRIGGER/OSCPU/libraries/difftest/src/test/csrc/common/vga.cpp
 	$(OBJCACHE) $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(OPT_FAST) -c -o $@ $<
-difftest.o: /home/yhz/oscpu/libraries/difftest/src/test/csrc/difftest/difftest.cpp
+difftest.o: /home/yhz/TRIGGER/OSCPU/libraries/difftest/src/test/csrc/difftest/difftest.cpp
 	$(OBJCACHE) $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(OPT_FAST) -c -o $@ $<
-goldenmem.o: /home/yhz/oscpu/libraries/difftest/src/test/csrc/difftest/goldenmem.cpp
+goldenmem.o: /home/yhz/TRIGGER/OSCPU/libraries/difftest/src/test/csrc/difftest/goldenmem.cpp
 	$(OBJCACHE) $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(OPT_FAST) -c -o $@ $<
-interface.o: /home/yhz/oscpu/libraries/difftest/src/test/csrc/difftest/interface.cpp
+interface.o: /home/yhz/TRIGGER/OSCPU/libraries/difftest/src/test/csrc/difftest/interface.cpp
 	$(OBJCACHE) $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(OPT_FAST) -c -o $@ $<
-nemuproxy.o: /home/yhz/oscpu/libraries/difftest/src/test/csrc/difftest/nemuproxy.cpp
+nemuproxy.o: /home/yhz/TRIGGER/OSCPU/libraries/difftest/src/test/csrc/difftest/nemuproxy.cpp
 	$(OBJCACHE) $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(OPT_FAST) -c -o $@ $<
-ref.o: /home/yhz/oscpu/libraries/difftest/src/test/csrc/difftest/ref.cpp
+ref.o: /home/yhz/TRIGGER/OSCPU/libraries/difftest/src/test/csrc/difftest/ref.cpp
 	$(OBJCACHE) $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(OPT_FAST) -c -o $@ $<
-spikedasm.o: /home/yhz/oscpu/libraries/difftest/src/test/csrc/difftest/spikedasm.cpp
+spikedasm.o: /home/yhz/TRIGGER/OSCPU/libraries/difftest/src/test/csrc/difftest/spikedasm.cpp
 	$(OBJCACHE) $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(OPT_FAST) -c -o $@ $<
-main.o: /home/yhz/oscpu/libraries/difftest/src/test/csrc/vcs/main.cpp
+main.o: /home/yhz/TRIGGER/OSCPU/libraries/difftest/src/test/csrc/vcs/main.cpp
 	$(OBJCACHE) $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(OPT_FAST) -c -o $@ $<
-emu.o: /home/yhz/oscpu/libraries/difftest/src/test/csrc/verilator/emu.cpp
+emu.o: /home/yhz/TRIGGER/OSCPU/libraries/difftest/src/test/csrc/verilator/emu.cpp
 	$(OBJCACHE) $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(OPT_FAST) -c -o $@ $<
-logger.o: /home/yhz/oscpu/libraries/difftest/src/test/csrc/verilator/logger.cpp
+logger.o: /home/yhz/TRIGGER/OSCPU/libraries/difftest/src/test/csrc/verilator/logger.cpp
 	$(OBJCACHE) $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(OPT_FAST) -c -o $@ $<
-main.o: /home/yhz/oscpu/libraries/difftest/src/test/csrc/verilator/main.cpp
+main.o: /home/yhz/TRIGGER/OSCPU/libraries/difftest/src/test/csrc/verilator/main.cpp
 	$(OBJCACHE) $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(OPT_FAST) -c -o $@ $<
-snapshot.o: /home/yhz/oscpu/libraries/difftest/src/test/csrc/verilator/snapshot.cpp
+snapshot.o: /home/yhz/TRIGGER/OSCPU/libraries/difftest/src/test/csrc/verilator/snapshot.cpp
 	$(OBJCACHE) $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(OPT_FAST) -c -o $@ $<
 
 ### Link rules... (from --exe)
-/home/yhz/oscpu/projects/chisel_cpu_diff/build/emu: $(VK_USER_OBJS) $(VK_GLOBAL_OBJS) $(VM_PREFIX)__ALL.a $(VM_HIER_LIBS)
+/home/yhz/TRIGGER/OSCPU/projects/chisel_cpu_diff/build/emu: $(VK_USER_OBJS) $(VK_GLOBAL_OBJS) $(VM_PREFIX)__ALL.a $(VM_HIER_LIBS)
 	$(LINK) $(LDFLAGS) $^ $(LOADLIBES) $(LDLIBS) $(LIBS) $(SC_LIBS) -o $@
 
 

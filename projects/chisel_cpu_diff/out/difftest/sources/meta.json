@@ -1,8 +1,8 @@
 {
     "value": [
-        "ref:260a52be:/home/yhz/oscpu/projects/chisel_cpu_diff/difftest/src/main/scala",
-        "ref:c984eca8:/home/yhz/oscpu/projects/chisel_cpu_diff/difftest/src/main/java"
+        "ref:33e2d36b:/home/yhz/TRIGGER/OSCPU/projects/chisel_cpu_diff/difftest/src/main/scala",
+        "ref:c984eca8:/home/yhz/TRIGGER/OSCPU/projects/chisel_cpu_diff/difftest/src/main/java"
     ],
-    "valueHash": 1930736929,
-    "inputsHash": -1881946567
+    "valueHash": 1553266808,
+    "inputsHash": 685524622
 }

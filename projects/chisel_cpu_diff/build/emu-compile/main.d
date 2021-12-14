@@ -1,10 +1,10 @@
 main.o: \
-  /home/yhz/oscpu/libraries/difftest/src/test/csrc/verilator/main.cpp \
-  /home/yhz/oscpu/libraries/difftest/src/test/csrc/verilator/emu.h \
-  /home/yhz/oscpu/libraries/difftest/src/test/csrc/common/common.h \
-  /home/yhz/oscpu/libraries/difftest/src/test/csrc/common/../../../../config/config.h \
-  /home/yhz/oscpu/libraries/DRAMsim3/src/cosimulation.h \
-  /home/yhz/oscpu/libraries/difftest/src/test/csrc/verilator/snapshot.h \
+  /home/yhz/TRIGGER/OSCPU/libraries/difftest/src/test/csrc/verilator/main.cpp \
+  /home/yhz/TRIGGER/OSCPU/libraries/difftest/src/test/csrc/verilator/emu.h \
+  /home/yhz/TRIGGER/OSCPU/libraries/difftest/src/test/csrc/common/common.h \
+  /home/yhz/TRIGGER/OSCPU/libraries/difftest/src/test/csrc/common/../../../../config/config.h \
+  /home/yhz/TRIGGER/OSCPU/libraries/DRAMsim3/src/cosimulation.h \
+  /home/yhz/TRIGGER/OSCPU/libraries/difftest/src/test/csrc/verilator/snapshot.h \
   VSimTop.h /usr/local/share/verilator/include/verilated.h \
   /usr/local/share/verilator/include/verilatedos.h \
   /usr/local/share/verilator/include/verilated_types.h \

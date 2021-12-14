@@ -6,302 +6,302 @@
     },
     {
         "label": "mill.scalalib.ZincWorkerModule.classpath",
-        "millis": 8,
-        "cached": true
+        "millis": 732,
+        "cached": false
     },
     {
         "label": "mill.scalalib.ZincWorkerModule.worker",
-        "millis": 58,
+        "millis": 39,
         "cached": false
     },
     {
         "label": "difftest.upstreamCompileOutput",
-        "millis": 0,
-        "cached": true
-    },
-    {
-        "label": "difftest.sources",
-        "millis": 7,
-        "cached": false
-    },
-    {
-        "label": "difftest.generatedSources",
-        "millis": 1,
-        "cached": true
-    },
-    {
-        "label": "difftest.allSources",
-        "millis": 0,
-        "cached": true
-    },
-    {
-        "label": "difftest.allSourceFiles",
-        "millis": 1,
-        "cached": true
-    },
-    {
-        "label": "difftest.transitiveLocalClasspath",
-        "millis": 0,
-        "cached": true
-    },
-    {
-        "label": "difftest.resources",
         "millis": 4,
         "cached": false
     },
     {
+        "label": "difftest.sources",
+        "millis": 8,
+        "cached": false
+    },
+    {
+        "label": "difftest.generatedSources",
+        "millis": 4,
+        "cached": false
+    },
+    {
+        "label": "difftest.allSources",
+        "millis": 4,
+        "cached": false
+    },
+    {
+        "label": "difftest.allSourceFiles",
+        "millis": 9,
+        "cached": false
+    },
+    {
+        "label": "difftest.transitiveLocalClasspath",
+        "millis": 5,
+        "cached": false
+    },
+    {
+        "label": "difftest.resources",
+        "millis": 5,
+        "cached": false
+    },
+    {
         "label": "difftest.unmanagedClasspath",
-        "millis": 1,
-        "cached": true
+        "millis": 5,
+        "cached": false
     },
     {
         "label": "difftest.scalaVersion",
-        "millis": 0,
-        "cached": true
+        "millis": 5,
+        "cached": false
     },
     {
         "label": "difftest.platformSuffix",
-        "millis": 1,
-        "cached": true
+        "millis": 5,
+        "cached": false
     },
     {
         "label": "difftest.compileIvyDeps",
-        "millis": 0,
-        "cached": true
+        "millis": 6,
+        "cached": false
     },
     {
         "label": "difftest.transitiveCompileIvyDeps",
-        "millis": 1,
-        "cached": true
+        "millis": 7,
+        "cached": false
     },
     {
         "label": "difftest.scalaOrganization",
-        "millis": 0,
-        "cached": true
+        "millis": 10,
+        "cached": false
     },
     {
         "label": "difftest.scalaLibraryIvyDeps",
-        "millis": 20,
-        "cached": true
+        "millis": 45,
+        "cached": false
     },
     {
         "label": "difftest.ivyDeps",
-        "millis": 1,
-        "cached": true
+        "millis": 6,
+        "cached": false
     },
     {
         "label": "difftest.transitiveIvyDeps",
-        "millis": 1,
-        "cached": true
+        "millis": 5,
+        "cached": false
     },
     {
         "label": "difftest.resolvedIvyDeps",
-        "millis": 1,
-        "cached": true
+        "millis": 250,
+        "cached": false
     },
     {
         "label": "difftest.compileClasspath",
-        "millis": 2,
-        "cached": true
+        "millis": 5,
+        "cached": false
     },
     {
         "label": "difftest.javacOptions",
-        "millis": 0,
-        "cached": true
+        "millis": 4,
+        "cached": false
     },
     {
         "label": "difftest.scalacOptions",
-        "millis": 0,
-        "cached": true
+        "millis": 3,
+        "cached": false
     },
     {
         "label": "difftest.scalaCompilerClasspath",
-        "millis": 1,
-        "cached": true
+        "millis": 42,
+        "cached": false
     },
     {
         "label": "difftest.scalacPluginIvyDeps",
-        "millis": 2,
-        "cached": true
+        "millis": 12,
+        "cached": false
     },
     {
         "label": "difftest.scalacPluginClasspath",
-        "millis": 1,
-        "cached": true
+        "millis": 54,
+        "cached": false
     },
     {
         "label": "difftest.compile",
-        "millis": 1,
-        "cached": true
+        "millis": 5946,
+        "cached": false
     },
     {
         "label": "oscpu.upstreamCompileOutput",
-        "millis": 1,
-        "cached": true
+        "millis": 8,
+        "cached": false
     },
     {
         "label": "oscpu.sources",
-        "millis": 11,
+        "millis": 32,
         "cached": false
     },
     {
         "label": "oscpu.generatedSources",
-        "millis": 0,
-        "cached": true
+        "millis": 8,
+        "cached": false
     },
     {
         "label": "oscpu.allSources",
-        "millis": 1,
-        "cached": true
+        "millis": 8,
+        "cached": false
     },
     {
         "label": "oscpu.allSourceFiles",
-        "millis": 1,
-        "cached": true
+        "millis": 15,
+        "cached": false
     },
     {
         "label": "difftest.localClasspath",
-        "millis": 0,
-        "cached": true
+        "millis": 7,
+        "cached": false
     },
     {
         "label": "oscpu.transitiveLocalClasspath",
-        "millis": 1,
-        "cached": true
+        "millis": 8,
+        "cached": false
     },
     {
         "label": "oscpu.unmanagedClasspath",
-        "millis": 0,
-        "cached": true
+        "millis": 7,
+        "cached": false
     },
     {
         "label": "oscpu.scalaVersion",
-        "millis": 1,
-        "cached": true
+        "millis": 6,
+        "cached": false
     },
     {
         "label": "oscpu.platformSuffix",
-        "millis": 0,
-        "cached": true
+        "millis": 7,
+        "cached": false
     },
     {
         "label": "oscpu.compileIvyDeps",
-        "millis": 0,
-        "cached": true
+        "millis": 7,
+        "cached": false
     },
     {
         "label": "oscpu.transitiveCompileIvyDeps",
-        "millis": 1,
-        "cached": true
+        "millis": 7,
+        "cached": false
     },
     {
         "label": "oscpu.scalaOrganization",
-        "millis": 0,
-        "cached": true
+        "millis": 8,
+        "cached": false
     },
     {
         "label": "oscpu.scalaLibraryIvyDeps",
-        "millis": 1,
-        "cached": true
+        "millis": 11,
+        "cached": false
     },
     {
         "label": "oscpu.ivyDeps",
-        "millis": 1,
-        "cached": true
+        "millis": 10,
+        "cached": false
     },
     {
         "label": "oscpu.transitiveIvyDeps",
-        "millis": 1,
-        "cached": true
+        "millis": 9,
+        "cached": false
     },
     {
         "label": "oscpu.resolvedIvyDeps",
-        "millis": 1,
-        "cached": true
+        "millis": 202,
+        "cached": false
     },
     {
         "label": "oscpu.compileClasspath",
-        "millis": 1,
-        "cached": true
+        "millis": 7,
+        "cached": false
     },
     {
         "label": "oscpu.javacOptions",
-        "millis": 0,
-        "cached": true
+        "millis": 6,
+        "cached": false
     },
     {
         "label": "oscpu.scalacOptions",
-        "millis": 1,
-        "cached": true
+        "millis": 6,
+        "cached": false
     },
     {
         "label": "oscpu.scalaCompilerClasspath",
-        "millis": 0,
-        "cached": true
+        "millis": 35,
+        "cached": false
     },
     {
         "label": "oscpu.scalacPluginIvyDeps",
-        "millis": 2,
-        "cached": true
+        "millis": 12,
+        "cached": false
     },
     {
         "label": "oscpu.scalacPluginClasspath",
-        "millis": 1,
-        "cached": true
+        "millis": 43,
+        "cached": false
     },
     {
         "label": "oscpu.compile",
-        "millis": 0,
-        "cached": true
+        "millis": 8040,
+        "cached": false
     },
     {
         "label": "oscpu.localClasspath",
-        "millis": 1,
-        "cached": true
+        "millis": 6,
+        "cached": false
     },
     {
         "label": "oscpu.runIvyDeps",
-        "millis": 0,
-        "cached": true
+        "millis": 6,
+        "cached": false
     },
     {
         "label": "oscpu.resolvedRunIvyDeps",
-        "millis": 1,
-        "cached": true
+        "millis": 159,
+        "cached": false
     },
     {
         "label": "oscpu.upstreamAssemblyClasspath",
-        "millis": 1,
-        "cached": true
+        "millis": 6,
+        "cached": false
     },
     {
         "label": "oscpu.runClasspath",
-        "millis": 1,
-        "cached": true
+        "millis": 5,
+        "cached": false
     },
     {
         "label": "oscpu.forkArgs",
-        "millis": 0,
-        "cached": true
+        "millis": 4,
+        "cached": false
     },
     {
         "label": "oscpu.forkEnv",
-        "millis": 1,
-        "cached": true
+        "millis": 8,
+        "cached": false
     },
     {
         "label": "oscpu.forkWorkingDir",
-        "millis": 0,
-        "cached": true
+        "millis": 6,
+        "cached": false
     },
     {
         "label": "oscpu.runUseArgsFile",
-        "millis": 0,
-        "cached": true
+        "millis": 6,
+        "cached": false
     },
     {
         "label": "oscpu.runMain",
-        "millis": 10013,
+        "millis": 9976,
         "cached": false
     }
 ]
