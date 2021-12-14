@@ -13,7 +13,7 @@ git clone https://github.com/yuhanzhu612/OSCPU.git
 4. 4KB Icache 
 5. 4KB Dcache 
 
-To run the tests read the README_YSYX.md
+To run the tests read the [README_YSYX.md](https://github.com/yuhanzhu612/OSCPU/blob/main/README_YSYX.md)
 
 ## cpu designed by chisel 
 
@@ -22,4 +22,4 @@ To run the tests read the README_YSYX.md
 4. 4KB Icache 
 5. 4KB Dcache 
 
-To run the tests read the README_YSYX.md
+To run the tests read the [README_YSYX.md](https://github.com/yuhanzhu612/OSCPU/blob/main/README_YSYX.md)
