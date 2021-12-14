@@ -4,7 +4,9 @@ This is my cpu in the project of ysyx!
 
 ## pull code 
 
+```
 git clone https://github.com/yuhanzhu612/OSCPU.git
+```
 
 ## cpu designed by verilog 
 
