@@ -1,0 +1,24 @@
+[
+  {
+    "class":"firrtl.transforms.BlackBoxResourceAnno",
+    "target":"SimTop.S011HD1P_X32Y2D128_BW",
+    "resourceId":"/vsrc/S011HD1P_X32Y2D128_BW.v"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxResourceAnno",
+    "target":"SimTop.S011HD1P_X32Y2D128",
+    "resourceId":"/vsrc/S011HD1P_X32Y2D128.v"
+  },
+  {
+    "class":"firrtl.transforms.DontTouchAnnotation",
+    "target":"~SimTop|RegFile>rf__10"
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.VerilogEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"vsrc"
+  }
+]

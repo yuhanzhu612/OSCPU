@@ -1,0 +1,8 @@
+{
+    "value": [
+        "ref:c984eca8:/home/yhz/oscpu/projects/chisel_cpu_diff/difftest/src/main/resources",
+        "ref:30fb6afc:/home/yhz/oscpu/projects/chisel_cpu_diff/out/difftest/compile/dest/classes"
+    ],
+    "valueHash": 755498888,
+    "inputsHash": 1544101180
+}
