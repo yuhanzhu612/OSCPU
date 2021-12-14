@@ -1,0 +1,9 @@
+[submodule "hardfloat"]
+	path = hardfloat
+	url = https://github.com/ucb-bar/berkeley-hardfloat.git
+[submodule "torture"]
+	path = torture
+	url = https://github.com/ucb-bar/riscv-torture.git
+[submodule "api-config-chipsalliance"]
+	path = api-config-chipsalliance
+	url = https://github.com/chipsalliance/api-config-chipsalliance.git
